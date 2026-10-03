@@ -34,7 +34,7 @@ function Login() {
     <div className="container section">
       <form className="form form-narrow" onSubmit={handleSubmit}>
         <h1>Login</h1>
-        <p className="hint">Test account: mor_2314 / 83r5^_</p>
+        <p className="hint">Test account: emilys / emilyspass</p>
         <label>
           Username
           <input value={username} onChange={function (e) { setUsername(e.target.value); }} required />
